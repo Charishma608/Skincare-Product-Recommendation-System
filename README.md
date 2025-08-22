@@ -49,7 +49,5 @@ The Skincare Product Recommendation System is a machine learning-based applicati
   <img src="./assets/result.png" alt="Result Screen"/>
 </p>
 
-## Contact
 
-For any queries or suggestions, feel free to reach out at [mahmoud.namnam72@gmail.com](mailto:mahmoud.namnam72@gmail.com).
 
