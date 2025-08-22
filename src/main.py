@@ -16,7 +16,7 @@ def recommender(search: str, num_recommendations: int = 5):
     brands = {}
     output = []
 
-    # Check if the product exists
+    # Check if the product exists or not
     if search not in data['product_name'].values:
         return {"error": "Product not found"}
 
@@ -68,3 +68,4 @@ async def recommend(product_name: str = Query(..., description="Enter product na
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
